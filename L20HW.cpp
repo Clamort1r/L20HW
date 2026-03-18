@@ -8,7 +8,7 @@ int main() {
     system("chcp 1251 > null");
 
     string filename;
-    cout << "Введіть ім'я файлу: ";
+    cout << "Введіть ім'я файлу: "; // text.txt
     cin >> filename;
 
     ifstream file(filename);
